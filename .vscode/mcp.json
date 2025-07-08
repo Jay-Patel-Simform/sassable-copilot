@@ -1,0 +1,11 @@
+{
+  "servers": {
+    "Framelink Figma MCP": {
+      "command": "bash",
+      "args": [
+        "-c",
+        "source .env.example && npx -y figma-developer-mcp --figma-api-key=\"$FIGMA_ACCESS_TOKEN\" --stdio"
+      ]
+    }
+  }
+}

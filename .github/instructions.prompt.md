@@ -59,6 +59,8 @@ npx husky add .husky/pre-commit "npx lint-staged"
 
 - Fonts Config
 - Add this in `app/root.tsx` file:
+- Get the border radius from the figma link: [Border Radius](https://www.figma.com/design/SOOB5xE3Jk0qq6bNYahL55/SaasAble-%E2%80%93-FREE-Figma-UI-kit-and-design-system--Community-?node-id=12089-40799&t=zkisXQPBMVrRJSZV-4)
+- Get the spacing from the figma link: [Spacing](https://www.figma.com/design/SOOB5xE3Jk0qq6bNYahL55/SaasAble-%E2%80%93-FREE-Figma-UI-kit-and-design-system--Community-?node-id=12089-40668&t=zkisXQPBMVrRJSZV-4)
 
 ```
 export const links: Route.LinksFunction = () => [
@@ -87,7 +89,6 @@ Extract and Implement color tokens from:
   2.2 Typography
 
 - Desktop
-
   - [Headings](https://www.figma.com/design/SOOB5xE3Jk0qq6bNYahL55/SaasAble-%E2%80%93-FREE-Figma-UI-kit-and-design-system--Community-?node-id=12024-131698&t=eWNtAceAHhFTiRdh-4)
   - [Display](https://www.figma.com/design/SOOB5xE3Jk0qq6bNYahL55/SaasAble-%E2%80%93-FREE-Figma-UI-kit-and-design-system--Community-?node-id=12024-131706&t=eWNtAceAHhFTiRdh-4)
   - [Paragraph](https://www.figma.com/design/SOOB5xE3Jk0qq6bNYahL55/SaasAble-%E2%80%93-FREE-Figma-UI-kit-and-design-system--Community-?node-id=12024-131714&t=eWNtAceAHhFTiRdh-4)
@@ -95,7 +96,6 @@ Extract and Implement color tokens from:
   - [Hyperlink](https://www.figma.com/design/SOOB5xE3Jk0qq6bNYahL55/SaasAble-%E2%80%93-FREE-Figma-UI-kit-and-design-system--Community-?node-id=12024-131730&t=eWNtAceAHhFTiRdh-4)
 
 - Tablet
-
   - [Headings](https://www.figma.com/design/SOOB5xE3Jk0qq6bNYahL55/SaasAble-%E2%80%93-FREE-Figma-UI-kit-and-design-system--Community-?node-id=12024-131647&t=eWNtAceAHhFTiRdh-4)
   - [Display](https://www.figma.com/design/SOOB5xE3Jk0qq6bNYahL55/SaasAble-%E2%80%93-FREE-Figma-UI-kit-and-design-system--Community-?node-id=12024-131656&t=eWNtAceAHhFTiRdh-4)
   - [Paragraph](https://www.figma.com/design/SOOB5xE3Jk0qq6bNYahL55/SaasAble-%E2%80%93-FREE-Figma-UI-kit-and-design-system--Community-?node-id=12024-131664&t=eWNtAceAHhFTiRdh-4)
@@ -112,7 +112,6 @@ Extract and Implement color tokens from:
 3. Component Implementation
 
 - Implement the following components using Shadcn UI library:
-
   - [Button](https://ui.shadcn.com/docs/components/button)
 
     3.1 Button Component
